@@ -12,3 +12,8 @@ $ sudo apt update && sudo apt upgrade -y
 ```
 $ sudo dpkg-reconfigure tzdata
 ```
+
+### Font
+```
+$ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
+```
