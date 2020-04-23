@@ -2,6 +2,11 @@
 ---
 # Linux Turn on
 
+[Linux-Turn-On](images/Linux-Turn-On.png)
+[Setup-Linux](images/Setup-Linux.png)
+[Installing-Linux](images/Installing-Linux.png)
+[Terminal](images/Terminal.png)
+
 # Crostini
 ## Initial Setup
 ```
