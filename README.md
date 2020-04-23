@@ -49,3 +49,6 @@ $ sdk selfupdate force
 $ sdk list java
 $ sdk install java 11.0.6-open
 ```
+
+## IntelliJ
+Open [IntellJ for Linux Download]()
