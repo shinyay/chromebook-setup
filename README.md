@@ -30,3 +30,17 @@ $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 ```
 $ source /etc/default/locale
 ```
+
+## IntelliJ
+### SDKMAN!
+```
+$ curl -s "https://get.sdkman.io" | bash
+$ source  "$HOME/.sdkman/bin/sdkman-init.sh"
+$ sdk help
+```
+```
+$ vim ~/.sdkman/etc/config
+sdkman_beta_channel=true
+
+$ sdk selfupdate force
+```
