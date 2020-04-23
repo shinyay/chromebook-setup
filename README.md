@@ -51,4 +51,4 @@ $ sdk install java 11.0.6-open
 ```
 
 ## IntelliJ
-Open [IntellJ for Linux Download]()
+Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
