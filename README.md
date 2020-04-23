@@ -44,3 +44,8 @@ sdkman_beta_channel=true
 
 $ sdk selfupdate force
 ```
+## JDK
+```
+$ sdk list java
+$ sdk install java 11.0.6-open
+```
