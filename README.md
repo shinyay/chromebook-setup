@@ -52,3 +52,7 @@ $ sdk install java 11.0.6-open
 
 ## IntelliJ
 Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
+
+```
+$ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
+```
