@@ -13,6 +13,14 @@
 ```
 $ sudo apt update && sudo apt upgrade -y
 ```
+
+### Chrome Configuration
+#### GPU Support for Crostini
+[Crostini GPU Support](chrome://flags/#crostini-gpu-support)
+
+#### Hyper-Threading
+[Scheduler Configuration](chrome://flags#scheduler-configuration)
+
 ### Git Configuration
 ```
 git config --global user.name "shinyay"
