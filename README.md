@@ -9,21 +9,34 @@
 
 # Crostini
 ## Initial Setup
+### Update
 ```
 $ sudo apt update && sudo apt upgrade -y
 ```
-## Japanese Env
-### Timezone
+### Git Configuration
+```
+git config --global user.name "shinyay"
+git config --global user.email ""
+git config --global core.quotepath false
+git config --global core.safecrlf true
+git config --global core.autocrlf false
+git config --global core.editor 'vim -c "set fenc=utf-8"'
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+```
+### Japanese Env
+#### Timezone
 ```
 $ sudo dpkg-reconfigure tzdata
 ```
 
-### Font
+#### Font
 ```
 $ sudo apt -y install task-japanese locales-all fonts-ipafont
 ```
 
-### Locale
+#### Locale
 ```
 $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 ```
