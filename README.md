@@ -65,13 +65,13 @@ sdkman_beta_channel=true
 
 $ sdk selfupdate force
 ```
-## JDK
+### JDK
 ```
 $ sdk list java
 $ sdk install java 11.0.6-open
 ```
 
-## IntelliJ
+### IntelliJ
 Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
 
 ```
