@@ -68,7 +68,7 @@ $ sdk selfupdate force
 ### JDK
 ```
 $ sdk list java
-$ sdk install java 11.0.6-open
+$ sdk install java 11.0.7-open
 ```
 
 ### IntelliJ
