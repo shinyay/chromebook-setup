@@ -90,6 +90,10 @@ $ sudo chsh --shell (which bash) $USER
 ```
 
 ## Fisherman
+```
+$ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
+fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
+```
 
 ## Google Cloud SDK
