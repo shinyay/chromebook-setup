@@ -78,4 +78,16 @@ Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#secti
 $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ```
 
+## Fish
+```
+$ sudo apt install fish
+$ chsh --shell $(which fish)
+$ sudo chsh --shell $(which fish) $USER
+```
+
+### Change to Bash
+```
+$ sudo chsh --shell (which bash) $USER
+```
+
 ## Google Cloud SDK
