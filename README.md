@@ -81,7 +81,6 @@ $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ## Fish
 ```
 $ sudo apt install fish
-$ chsh --shell $(which fish)
 $ sudo chsh --shell $(which fish) $USER
 ```
 
@@ -89,5 +88,8 @@ $ sudo chsh --shell $(which fish) $USER
 ```
 $ sudo chsh --shell (which bash) $USER
 ```
+
+## Fisherman
+
 
 ## Google Cloud SDK
