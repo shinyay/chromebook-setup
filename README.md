@@ -77,3 +77,5 @@ Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#secti
 ```
 $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ```
+
+## Google Cloud SDK
