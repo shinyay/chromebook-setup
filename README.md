@@ -121,6 +121,7 @@ fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
 
 ### Fish Plugin
 - **peco**
+
 By pushing ctrl + r, you can search shell history
 ```
 $ sudo https://github.com/peco/peco/releases/download/v0.5.7/peco_linux_amd64.tar.gz
@@ -137,7 +138,8 @@ function fish_user_key_bindings
 end
 ```
 
-- **bobthefish
+- **bobthefish**
+
 [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 ```
 $ fisher add oh-my-fish/theme-bobthefish
@@ -190,12 +192,14 @@ set -g theme_newline_prompt '$ '
 ```
 
 - **z**
+
 By z, it tracks the directory you have visited
 ```
 $ fisher add jethrokuan/z
 ```
 
 - **fish-bd**
+
 By bd, you can quickly go back to a parent directory in your current working directory tree
 ```
 $ fisher add 0rax/fish-bd
