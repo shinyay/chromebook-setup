@@ -136,4 +136,10 @@ $ ./fonts/install.sh
 $ rm -rf ./fonts
 ```
 
+- **z**
+By z, it tracks the directory you have visited
+```
+$ fisher add jethrokuan/z
+```
+
 ## Google Cloud SDK
