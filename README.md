@@ -111,6 +111,7 @@ fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
 
 ### Fish Plugin
 - **peco**
+By pushing ctrl + r, you can search shell history
 ```
 $ fisher add oh-my-fish/plugin-peco
 $ vim ~/.config/fish/config.fish
