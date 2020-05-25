@@ -122,4 +122,9 @@ function fish_user_key_bindings
 end
 ```
 
+- **bobthefish
+```
+$ fisher add oh-my-fish/theme-bobthefish
+```
+
 ## Google Cloud SDK
