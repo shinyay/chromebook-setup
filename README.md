@@ -33,6 +33,19 @@ $ git config --global color.diff auto
 $ git config --global color.status auto
 $ git config --global color.branch auto
 ```
+
+#### Git Alias
+- **git status**
+```
+$ git config --global alias.st status
+````
+
+- **git log**
+```
+$ git config --global alias.plog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
+$ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph"
+```
+
 ### Japanese Env
 #### Timezone
 ```
