@@ -112,6 +112,13 @@ $ sudo chsh --shell $(which fish) $USER
 $ sudo chsh --shell (which bash) $USER
 ```
 
+### Completion
+- **git**
+
+```
+$ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
+```
+
 ### Fisherman
 ```
 $ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
@@ -150,7 +157,7 @@ $ rm -rf ./fonts
 
 $ vim ~/.config/fish/config.fish
 
-set -g theme_display_git no
+set -g theme_display_git yes
 set -g theme_display_git_dirty no
 set -g theme_display_git_untracked no
 set -g theme_display_git_ahead_verbose yes
