@@ -8,7 +8,7 @@
 ![Terminal](images/Terminal.png)
 
 # Crostini
-## Initial Setup
+## 1. Initial Setup
 ### Update
 ```
 $ sudo apt update && sudo apt upgrade -y
@@ -23,15 +23,15 @@ $ sudo apt update && sudo apt upgrade -y
 
 ### Git Configuration
 ```
-git config --global user.name "shinyay"
-git config --global user.email ""
-git config --global core.quotepath false
-git config --global core.safecrlf true
-git config --global core.autocrlf false
-git config --global core.editor 'vim -c "set fenc=utf-8"'
-git config --global color.diff auto
-git config --global color.status auto
-git config --global color.branch auto
+$ git config --global user.name "shinyay"
+$ git config --global user.email ""
+$ git config --global core.quotepath false
+$ git config --global core.safecrlf true
+$ git config --global core.autocrlf false
+$ git config --global core.editor 'vim -c "set fenc=utf-8"'
+$ git config --global color.diff auto
+$ git config --global color.status auto
+$ git config --global color.branch auto
 ```
 ### Japanese Env
 #### Timezone
@@ -52,7 +52,7 @@ $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 $ source /etc/default/locale
 ```
 
-## IntelliJ
+## 2. IntelliJ
 ### SDKMAN!
 ```
 $ curl -s "https://get.sdkman.io" | bash
@@ -78,7 +78,7 @@ Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#secti
 $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ```
 
-## Fish
+## 3. Fish
 ```
 $ sudo apt install fish
 $ sudo chsh --shell $(which fish) $USER
@@ -89,11 +89,14 @@ $ sudo chsh --shell $(which fish) $USER
 $ sudo chsh --shell (which bash) $USER
 ```
 
-## Fisherman
+### Fisherman
 ```
 $ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
 fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
 ```
+
+### Fish Plugin
+
 
 ## Google Cloud SDK
