@@ -125,6 +125,10 @@ end
 - **bobthefish
 ```
 $ fisher add oh-my-fish/theme-bobthefish
+
+$ git clone https://github.com/powerline/fonts.git
+$ ./fonts/install.sh
+$ rm -rf ./fonts
 ```
 
 ## Google Cloud SDK
