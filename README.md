@@ -57,6 +57,16 @@ $ sudo dpkg-reconfigure tzdata
 $ sudo apt -y install task-japanese locales-all fonts-ipafont
 ```
 
+- **Cica**
+```
+$ wget https://github.com/miiton/Cica/releases/download/v5.0.1/Cica_v5.0.1_with_emoji.zip
+$ unzip Cica_v5.0.1_with_emoji.zip 
+$ mkdir .fonts
+$ mv Cica-* .fonts/
+$ sudo fc-cache -fv
+$ rm -fr Cica_v5.0.1_with_emoji.zip COPYRIGHT.txt LICENSE.txt
+```
+
 #### Locale
 ```
 $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
