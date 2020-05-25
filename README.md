@@ -113,6 +113,11 @@ fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
 - **peco**
 By pushing ctrl + r, you can search shell history
 ```
+$ sudo https://github.com/peco/peco/releases/download/v0.5.7/peco_linux_amd64.tar.gz
+$ sudo tar xzvf peco_linux_amd64.tar.gz
+$ sudo chmod +x peco_linux_amd64/peco 
+$ sudo mv peco_linux_amd64/peco /usr/local/bin
+$ sudo rm -fr peco_linux_amd64 peco_linux_amd64.tar.gz
 $ fisher add oh-my-fish/plugin-peco
 $ vim ~/.config/fish/config.fish
 
