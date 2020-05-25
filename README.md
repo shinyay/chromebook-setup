@@ -142,4 +142,10 @@ By z, it tracks the directory you have visited
 $ fisher add jethrokuan/z
 ```
 
+- **fish-bd**
+By bd, you can quickly go back to a parent directory in your current working directory tree
+```
+$ fisher add 0rax/fish-bd
+```
+
 ## Google Cloud SDK
