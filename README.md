@@ -82,12 +82,15 @@ $ curl -s "https://get.sdkman.io" | bash
 $ source  "$HOME/.sdkman/bin/sdkman-init.sh"
 $ sdk help
 ```
+
+#### Beta Channel
 ```
 $ vim ~/.sdkman/etc/config
 sdkman_beta_channel=true
 
 $ sdk selfupdate force
 ```
+
 ### JDK
 ```
 $ sdk list java
