@@ -38,7 +38,7 @@ $ git config --global color.branch auto
 - **git status**
 ```
 $ git config --global alias.st status
-````
+```
 
 - **git log**
 ```
