@@ -217,4 +217,9 @@ By bd, you can quickly go back to a parent directory in your current working dir
 $ fisher add 0rax/fish-bd
 ```
 
+- **sdkman-for-fish**
+```
+$ fisher add reitzig/sdkman-for-fish
+```
+
 ## Google Cloud SDK
