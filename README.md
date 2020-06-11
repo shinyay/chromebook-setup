@@ -244,3 +244,16 @@ $ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --ke
 ```
 $ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
+
+### Cloud SDK Initialization
+```
+$ gcloud init
+
+To continue, you must log in. Would you like to log in (Y/n)? Y
+```
+
+- **Enabling accessibility features**
+
+```
+$ gcloud config set accessibility/screen_reader true
+```
