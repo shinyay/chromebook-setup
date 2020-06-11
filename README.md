@@ -257,3 +257,7 @@ To continue, you must log in. Would you like to log in (Y/n)? Y
 ```
 $ gcloud config set accessibility/screen_reader true
 ```
+
+```
+$ gcloud config list
+```
