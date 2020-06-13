@@ -75,8 +75,7 @@ $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 $ source /etc/default/locale
 ```
 
-## 2. IntelliJ
-### SDKMAN!
+## 2. SDKMAN!
 ```
 $ curl -s "https://get.sdkman.io" | bash
 $ source  "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -97,14 +96,61 @@ $ sdk list java
 $ sdk install java 11.0.7-open
 ```
 
-### IntelliJ
+## 3. IntelliJ
 Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
 
 ```
 $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ```
 
-## 3. Fish
+## 4. Docker
+### Set up the Docker Repository
+```
+$ sudo apt-get update
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+```
+
+### Add Docker's official GPG key:
+```
+$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+$ sudo apt-key fingerprint 0EBFCD88
+```
+
+### Set up the **stable** repository
+```
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
+```
+
+### Install Docker Engine
+```
+$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+### Enabled Non-Root Docker
+```
+$ sudo usermod -aG docker $USER
+$ sudo chmod 666 /var/run/docker.sock
+```
+
+Crostini Reboot
+
+### Confirm Docker installation
+```
+$ docker run --rm hello-world
+$ docker images
+$ docker rmi hello-world
+```
+
+## 5. Fish
 ```
 $ sudo apt install fish
 $ sudo chsh --shell $(which fish) $USER
@@ -225,7 +271,7 @@ $ fisher add 0rax/fish-bd
 $ fisher add reitzig/sdkman-for-fish
 ```
 
-## Google Cloud SDK
+## 6. Google Cloud SDK
 ### Cloud SDK Installation
 
 - **Add the Cloud SDK distribution URI as a package source**
