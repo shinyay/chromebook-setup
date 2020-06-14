@@ -220,7 +220,7 @@ set -g theme_use_abbreviated_branch_name no
 
 set -g theme_display_vagrant no
 set -g theme_display_docker_machine no
-set -g theme_display_k8s_context yes
+set -g theme_display_k8s_context no
 set -g theme_display_hg no
 set -g theme_display_virtualenv no
 set -g theme_display_nix no
