@@ -150,6 +150,12 @@ $ docker images
 $ docker rmi hello-world
 ```
 
+## 5. Kubernetes
+### kubectl
+```
+$ sudo apt-get install kubectl
+```
+
 ## 5. Fish
 ```
 $ sudo apt install fish
