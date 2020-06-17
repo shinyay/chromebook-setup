@@ -12,7 +12,8 @@
 ### Update
 ```
 $ sudo apt update && sudo apt upgrade -y
-$ sudo aput install zip
+$ sudo apt install zip -y
+$ sudo apt install jq -y
 ```
 
 ### Chrome Configuration
