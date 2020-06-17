@@ -104,6 +104,7 @@ $ sudo apt install ./dive_0.9.2_linux_amd64.deb
 $ rm dive_0.9.2_linux_amd64.deb   
 ```
 
+- `dive <your-image-tag>`
 
 ## 3. SDKMAN!
 ```
