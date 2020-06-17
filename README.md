@@ -76,10 +76,17 @@ $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 $ source /etc/default/locale
 ```
 
-## 2. Tilix
+## 2. Tools
+### Tilix
 ```
 $ sudo apt install tilix
 ```
+
+### Enhanced JVM Meomry Calculator(emc)
+```
+$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_linux_amd64 -o /usr/local/bin/emc
+```
+
 
 ## 3. SDKMAN!
 ```
