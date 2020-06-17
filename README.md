@@ -84,7 +84,8 @@ $ sudo apt install tilix
 
 ### Enhanced JVM Meomry Calculator(emc)
 ```
-$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_linux_amd64 -o /usr/local/bin/emc
+$ sudo curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_linux_amd64 -o /usr/local/bin/emc
+$ sudo chmod +x /usr/local/bin/emc
 ```
 
 
