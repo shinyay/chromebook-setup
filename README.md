@@ -12,6 +12,7 @@
 ### Update
 ```
 $ sudo apt update && sudo apt upgrade -y
+$ sudo aput install zip
 ```
 
 ### Chrome Configuration
@@ -54,7 +55,7 @@ $ sudo dpkg-reconfigure tzdata
 
 #### Font
 ```
-$ sudo apt -y install task-japanese locales-all fonts-ipafont
+$ sudo apt -y install task-japanese locales-all fonts-ipafont fonts-firacode
 ```
 
 - **Cica**
@@ -75,7 +76,12 @@ $ sudo localectl set-locale LANG=ja_JP.UTF-8 LANGUAGE="ja_JP:ja"
 $ source /etc/default/locale
 ```
 
-## 2. SDKMAN!
+## 2. Tilix
+```
+$ sudo apt install tilix
+```
+
+## 3. SDKMAN!
 ```
 $ curl -s "https://get.sdkman.io" | bash
 $ source  "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -96,14 +102,14 @@ $ sdk list java
 $ sdk install java 11.0.7-open
 ```
 
-## 3. IntelliJ
+## 4. IntelliJ
 Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
 
 ```
 $ sudo tar xvf ideaIU-2020.1.tar.gz -C /opt
 ```
 
-## 4. Docker
+## 5. Docker
 ### Set up the Docker Repository
 ```
 $ sudo apt-get update
@@ -150,13 +156,13 @@ $ docker images
 $ docker rmi hello-world
 ```
 
-## 5. Kubernetes
+## 6. Kubernetes
 ### kubectl
 ```
 $ sudo apt-get install kubectl
 ```
 
-## 5. Fish
+## 7. Fish
 ```
 $ sudo apt install fish
 $ sudo chsh --shell $(which fish) $USER
@@ -277,7 +283,7 @@ $ fisher add 0rax/fish-bd
 $ fisher add reitzig/sdkman-for-fish
 ```
 
-## 6. Google Cloud SDK
+## 8. Google Cloud SDK
 ### Cloud SDK Installation
 
 - **Add the Cloud SDK distribution URI as a package source**
