@@ -97,6 +97,13 @@ $ sudo curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0
 $ sudo chmod +x /usr/local/bin/emc
 ```
 
+### Dive
+```
+$ wget https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.deb
+$ sudo apt install ./dive_0.9.2_linux_amd64.deb
+$ rm dive_0.9.2_linux_amd64.deb   
+```
+
 
 ## 3. SDKMAN!
 ```
