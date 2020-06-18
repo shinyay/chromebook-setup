@@ -135,6 +135,12 @@ $ sdk list java
 $ sdk install java 11.0.7-open
 ```
 
+### Maven
+```
+$ sdk list maven
+$ sdk install maven 3.6.3
+```
+
 ## 4. IntelliJ
 Open [IntellJ for Linux Download](https://www.jetbrains.com/idea/download/#section=linux)
 
