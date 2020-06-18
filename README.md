@@ -113,13 +113,20 @@ $ source  "$HOME/.sdkman/bin/sdkman-init.sh"
 $ sdk help
 ```
 
-#### Beta Channel
+### Beta Channel
 ```
 $ vim ~/.sdkman/etc/config
 sdkman_beta_channel=true
 
 $ sdk selfupdate force
 ```
+
+### Upgrade
+```
+$ sdk upgrade
+$ sdk flush broadcast
+$ sdk flush archives
+$ sdk flush temp
 
 ### JDK
 ```
