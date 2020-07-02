@@ -195,6 +195,16 @@ $ docker images
 $ docker rmi hello-world
 ```
 
+## 5.1. pack - Buildpack CLI
+
+- [script](script/05a-pack.fish)
+
+```
+$ wget https://github.com/buildpacks/pack/releases/download/v0.11.2/pack-v0.11.2-linux.tgz
+$ tar xvf pack-v0.11.2-linux.tgz
+$ rm pack-v0.11.2-linux.tgz
+$ mv pack /usr/local/bin/
+```
 ## 6. Kubernetes
 ### kubectl
 ```
